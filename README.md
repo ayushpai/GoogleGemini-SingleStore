@@ -1,4 +1,6 @@
-# Google Gemini SingleStore
+## Google Gemini RAG Demo 2/16/24
+- Install libraries: ``pip install openai langchain singlestoredb google-generativeai``
+- Run ``rag.py``
+- Insert your SingleStoreDB database URL and Google Gemni API Key
+- Get Started! You can load your own data by changing the ``loader = TextLoader("YOUR_TEXT_FILE.txt")``
 
-Follow allong with this Colab Notebook:
-https://colab.research.google.com/drive/1fn0ou60c4mkRGvgl0Lv-sprd-4El_hst?usp=sharing
