@@ -16,7 +16,7 @@ load_dotenv()
 # Access the API key
 GEMINI_API_KEY = os.getenv('API_KEY')
 gemini.configure(api_key=GEMINI_API_KEY)
-os.environ["SINGLESTOREDB_URL"] = "ayush:Test1234@svc-3482219c-a389-4079-b18b-d50662524e8a-shared-dml.aws-virginia-6.svc.singlestore.com:3333/database_79fb0"
+os.environ["SINGLESTOREDB_URL"] = "<Insert SingleStore Database URL Here>"
 
 # Load and process documents
 loader = TextLoader("superbowl.txt")
