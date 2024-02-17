@@ -28,8 +28,6 @@ docs = text_splitter.split_documents(documents)
 embeddings = OpenAIEmbeddings()
 docsearch = SingleStoreDB.from_documents(docs, embeddings, table_name="tester1")
 
-# Initialize OpenAI client
-client = OpenAI()
 
 # Chat loop
 while True:
